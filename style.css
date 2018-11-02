@@ -29,6 +29,8 @@ tr {
 
 .NavIcon[selected=true]{
 	border-top-color: lightgreen;
+	border-left-color: #464749;
+	border-right-color: #464749;
 	border-top-width: 0.75em;
 }
 
