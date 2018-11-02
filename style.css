@@ -9,8 +9,12 @@ h1 {
 	padding-top: 20px;
 }
 
+td {
+	background: transparent;
+	vertical-align: middle;
+}
+
 tr {
-	background-color: white;
 	text-align: center;
 }
 
@@ -22,7 +26,7 @@ tr {
 	height: 50px;
 	width: 50px;
 	padding: 10px;
-	margin: 10px;
+	margin: 10px 0px 10px 10px;
 	border:	solid #464749;
 	border-radius: 100%;
 }
@@ -36,6 +40,14 @@ tr {
 
 
 /* Name-Specific Styling */
+
+a[name=navLink] {
+	color: #464749;
+	font-family: sans-serif;
+	font-weight: bold;
+	text-decoration: none;
+}
+
 div[name=Main] {
 	height: 500px;
 	margin-left: auto;
@@ -47,8 +59,26 @@ div[name=Main] {
 div[name=ActiveUnitBox] {
 	border: solid #464749;
 	border-radius: 15%;
+	height: 60%;
+	margin-left: 0px;
+	position: fixed;
+	width: 60%;
 }
 
 div[name=ActiveUnitBox] img {
 	border-radius: 15%;
+	height: 100%;
+	width: 100%;
+}
+
+div[name=NavTableBox] {
+	position:fixed;
+    margin-left:-235px;
+    margin-top:175px;
+    top:50%;
+    left:50%;
+}
+
+div[name=NavTableBox] table {
+	margin: 0px;
 }
