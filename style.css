@@ -46,3 +46,7 @@ div[name=ActiveUnitBox] {
 	border: solid #464749;
 	border-radius: 15%;
 }
+
+div[name=ActiveUnitBox] img {
+	border-radius: 15%;
+}
