@@ -1,0 +1,50 @@
+body {
+	background-image: url("./media/img/light_wood.jpg");
+	text-align: center;
+}
+
+h1 {
+	color: #464749;
+	font-family: Verdana, Geneva, sans-serif;
+	padding-top: 20px;
+	/*text-decoration: overline underline;
+	text-decoration-color: white;*/
+}
+
+tr {
+	background-color: white;
+	text-align: center;
+}
+
+
+
+/* Class-Specific Styling */
+.NavIcon {
+	background-color: white;
+	height: 50px;
+	width: 50px;
+	padding: 10px;
+	margin: 10px;
+	border:	solid #464749;
+	border-radius: 100%;
+}
+
+.NavIcon[selected=true]{
+	border-top-color: lightgreen;
+	border-top-width: 0.75em;
+}
+
+
+/* Name-Specific Styling */
+div[name=Main] {
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 500px;
+}
+
+div[name=ActiveUnitBox] {
+	border: solid #464749;
+	border-radius: 15%;
+}
